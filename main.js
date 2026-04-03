@@ -84,7 +84,7 @@ document.querySelectorAll('.reveal').forEach((el, i) => {
 // ── 4. CONTACT FORM → GOOGLE SHEETS ───────────
 // ⚠️ REPLACE THIS URL with your own Google Apps Script Web App URL
 // Instructions are in contact.html comments
-const SHEET_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwDtwm4eXzv2xohCZS6Kkp3Aw51h4humcPyCtu1pDB9pVuiUgpWb2cG3INqGzhHaWQJ/exec';
 
 const form = document.getElementById('leadForm');
 const successBox = document.getElementById('formSuccess');
